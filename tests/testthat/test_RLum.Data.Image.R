@@ -1,8 +1,8 @@
-test_that("check class ", {
-  testthat::skip_on_cran()
+## load example data
+data(ExampleData.RLum.Data.Image, envir = environment())
 
-  ##load example data
-  data(ExampleData.RLum.Data.Image, envir = environment())
+test_that("check functionality", {
+  testthat::skip_on_cran()
 
   ##set-method
   ##set empty class
