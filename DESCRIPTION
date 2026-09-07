@@ -40,8 +40,7 @@ License: GPL-3
 URL: https://r-lum.github.io/Luminescence/
 BugReports: https://github.com/R-Lum/Luminescence/issues
 Depends:
-    R (>= 4.5),
-    utils
+    R (>= 4.5)
 LinkingTo:
     Rcpp (>= 1.1.2)
 Imports:
@@ -59,6 +58,7 @@ Imports:
     shape (>= 1.4.6),
     stats,
     parallel,
+    utils,
     XML (>= 3.99-0.23),
 Suggests:
     spelling (>= 2.3.2),
